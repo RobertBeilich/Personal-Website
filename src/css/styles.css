@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,600,600i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 h1,
 h2,
 h3,
@@ -117,12 +118,6 @@ button {
 
 .button-animated:hover:nth-of-type(10):after {
   width: 0%; }
-
-a {
-  text-decoration: none;
-  color: #18003C;
-  font-size: 1em;
-  transition: color 0.3s ease; }
 
 .menuelement {
   color: #18003C; }
@@ -495,7 +490,7 @@ button,
 input,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font-family: "Nunito", sans-serif; }
 
 code,
 pre {
