@@ -1,0 +1,9 @@
+.fadein { 
+    opacity: 0;
+    transform: translateY(-40px);
+}
+
+article {
+    opacity: 1;
+    transition: all 1s ease;
+}

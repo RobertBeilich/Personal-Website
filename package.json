@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css-build": "node-sass --omit-source-map-url src/scss/styles.scss src/css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "author": "André Thiele",
   "license": "MIT",
   "devDependencies": {
     "bulma": "^0.7.1",
     "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "hoek": "^5.0.3"
   }
 }
