@@ -118,12 +118,6 @@ button {
 .button-animated:hover:nth-of-type(10):after {
   width: 0%; }
 
-a {
-  text-decoration: none;
-  color: #18003C;
-  font-size: 1em;
-  transition: color 0.3s ease; }
-
 .menuelement {
   color: #18003C; }
 
