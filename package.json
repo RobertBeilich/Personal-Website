@@ -12,7 +12,11 @@
   "license": "MIT",
   "devDependencies": {
     "bulma": "^0.7.1",
+<<<<<<< HEAD
     "node-sass": "^4.9.2",
     "hoek": "^5.0.3"
+=======
+    "node-sass": "^4.9.2"
+>>>>>>> 36d6b808ed64350fbf2e90f918c3315f5b1e70b9
   }
 }
