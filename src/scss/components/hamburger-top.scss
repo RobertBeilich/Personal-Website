@@ -75,9 +75,10 @@
 #menu {
     position: fixed;
     width: 100%;
-    margin: -60px 0 0 -30px;
-    padding: 25px;
+    margin: -60px 0 0 -100%;
+    padding: 30px;
     padding-top: 100px;
+    right: 0;
     
     background: hsl(0, 0%, 96%);
     list-style-type: none;
@@ -92,8 +93,10 @@
   
 #menu li {
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 16pt;
     display: block;
+    text-align: right;
+    text-transform: uppercase;
 }
   
 #menuToggle input:checked ~ ul {
@@ -103,9 +106,9 @@
 @media screen and (max-width: 1087px) {
     #menuToggle {
       display: block;
-      position: absolute;
-      top: 30px;
-      left: 30px;
+      position: fixed;
+      top: 20px;
+      right: 20px;
     
       z-index: 1;
     
