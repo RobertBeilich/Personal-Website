@@ -7,8 +7,8 @@
 // Reset and base files
 @import 'base/base';
 
-// Objects
-// -------
+// Layout
+@import 'layout/footer';
 
 // Components
 @import 'components/button';
@@ -16,7 +16,7 @@
 @import 'components/fadein';
 
 // Filter
-@import 'filter/filter';
+@import 'filter/grayscale';
 
 // Other components as necessary
 
