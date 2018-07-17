@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="../../dist/css/styles.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-    <script language="javascript" type="text/javascript" src="../js/fadein.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/fade.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon/favicon.ico">
     <link rel="icon" type="image/png" href="../assets/favicon/favicon.png" sizes="32x32">
     <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
 </head>
 
-<body onload="fadein()">
+<body onload="fadeinbody()">
 
     <section class="hero is-fullheight has-background-info">
+
+        <div id="darkenbackground"></div>
 
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
@@ -28,7 +30,7 @@
                 <div class="container">
 
                     <!-- Hamburger -->
-                    <div id="menuToggle">
+                    <div id="menuToggle" onclick="fadeinbackground()">
                         <input type="checkbox" />
                         <span></span>
                         <span></span>
@@ -66,7 +68,7 @@
         </div>
 
         <!-- Body -->
-        <article class="hero-body fadein">
+        <div class="hero-body fadeinbody">
             <div class="container">
                 <h1 class="title is-size-2 has-text-primary">
                     Welcome
@@ -88,7 +90,7 @@
                 </a>
                 </p>
             </div>
-        </article>
+        </div>
     </section>
 
     <!-- Footer -->

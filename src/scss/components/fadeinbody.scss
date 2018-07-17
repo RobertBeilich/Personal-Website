@@ -1,9 +1,9 @@
-.fadein { 
-    opacity: 0;
+.fadeinbody { 
+    opacity: 0 !important;
     transform: translateY(-40px);
 }
 
-article {
+.hero-body {
     opacity: 1;
     transition: all 1s ease;
 }
