@@ -1,5 +1,5 @@
 function fadeinbody() {
-    document.getElementsByTagName("article")[0].classList.remove('fadeinbody');
+    document.getElementsByClassName("hero-body")[0].classList.remove('fadeinbody');
 };
 
 function fadeinbackground() {
