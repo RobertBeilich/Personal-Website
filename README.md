@@ -6,5 +6,5 @@
 5. Develop!
 
 # Overview
-![mobile](https://imgur.com/a/RyzTqaA)
-![mobile](https://imgur.com/a/eWL8oTA)
+![mobile](https://i.imgur.com/AbFFaYf.png)
+![mobile](https://i.imgur.com/L3hqZb0.png)
