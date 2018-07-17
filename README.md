@@ -6,5 +6,4 @@
 5. Develop!
 
 # Overview
-![mobile](https://i.imgur.com/AbFFaYf.png)
-![mobile](https://i.imgur.com/L3hqZb0.png)
+<img src="https://i.imgur.com/vysFEgR.png" width="200" height="400" title="mobile">
