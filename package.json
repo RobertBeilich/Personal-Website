@@ -6,12 +6,13 @@
   "scripts": {
     "css-build": "node-sass --omit-source-map-url src/scss/styles.scss dist/css/styles.css",
     "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "start": "npm-run-all -p css-*"
   },
   "author": "André Thiele",
   "license": "MIT",
   "devDependencies": {
     "bulma": "^0.7.1",
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.2",
+    "npm-run-all": "^4.1.3"
   }
 }
