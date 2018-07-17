@@ -24,43 +24,34 @@
 
         <div id="darkenbackground"></div>
 
-        <!-- Hero head: will stick at the top -->
+        <!-- Head -->
         <div class="hero-head">
             <nav class="navbar">
                 <div class="container">
 
-                    <!-- Hamburger -->
+                    <!-- When smaller than 1087px -->
                     <div id="menuToggle">
                         <input type="checkbox" onclick="fadeinbackground()" />
+                        
                         <span></span>
                         <span></span>
                         <span></span>
 
                         <ul id="menu">
-                            <li>
-                                <a href="#" id="menuelement">Home</a>
-                            </li>
-                            <li>
-                                <a href="#" id="menuelement">About</a>
-                            </li>
-                            <li>
-                                <a href="#" id="menuelement">Projects</a>
-                            </li>
+                            <li><a class="menuelement" href="index.html">Home</a></li>
+                            <li><a class="menuelement" href="#" >About</a></li>
+                            <li><a class="menuelement" href="#">Work</a></li>
+                            <li><a class="menuelement" href="#">Contact</a></li>
                         </ul>
                     </div>
 
-                    <!-- Nav top -->
+                    <!-- When bigger than 1087px -->
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <a class="button-animated has-text-primary" href="index.html">
-                                Home
-                            </a>
-                            <a class="button-animated has-text-primary">
-                                About
-                            </a>
-                            <a class="button-animated has-text-primary">
-                                Projects
-                            </a>
+                            <a class="button-animated has-text-white" href="index.html">Home</a>
+                            <a class="button-animated has-text-white" href="#">About</a>
+                            <a class="button-animated has-text-white" href="#">Work</a>
+                            <a class="button-animated has-text-white" href="#">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -80,15 +71,16 @@
                     <span class="icon">
                         <i class="fab fa-github"></i>
                     </span>
+
                     <span>GitHub</span>
                 </a>
                 <a class="button is-light is-rounded" href="https://twitter.com/itsandreramon" target="_blank">
                     <span class="icon">
                         <i class="fab fa-twitter"></i>
                     </span>
+
                     <span>Twitter</span>
                 </a>
-                </p>
             </div>
         </div>
     </section>
