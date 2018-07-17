@@ -4,3 +4,7 @@
 3. Run 'npm run css-build' to build the dist folder with the css file
 4. Run 'npm start' to let the SASS transpiler watch for changes and update the dist folder
 5. Develop!
+
+# Overview
+![mobile](https://imgur.com/a/RyzTqaA)
+![mobile](https://imgur.com/a/eWL8oTA)
