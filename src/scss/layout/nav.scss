@@ -1,22 +1,21 @@
-.navbar-link {
+.navbar-link, .navbar-item {
+    color: hsl(0, 0%, 96%) !important;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 0;
 }
 
-.navbar-link, .navbar-item {
-    color: hsl(0, 0%, 96%) !important;
-}
-
 .navbar-menu {
-    position: relative;
-    right: 4.5rem;
+    right: 0;
     position: fixed;
     top: 0;
+    margin-right: 4.5rem;
+    margin-top: 5px;
 }
 
-.navbar-start {
+.navbar-brand {
     margin-top: 5px;
+    margin-left: 4rem;
 }
 
 @media screen and (max-width: 1087px) {
@@ -27,5 +26,14 @@
 
     .navbar {
         background-color: #18003C !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1.5rem;
+        margin-top: 0.75rem;
+    }
+
+    .navbar-item {
+        padding: 0 !important;
     }
 }

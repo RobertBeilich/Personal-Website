@@ -26,64 +26,84 @@
         <div id="darkenbackground"></div>
 
         <nav class="navbar is-transparent is-fixed-top has-background-info">
-            <!-- When smaller than 1087px -->
-            <div id="menuToggle">
-                <input type="checkbox" onclick="fadeinbackground()" />
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">ANDR
+                    <u>É</u>&#160;THIELE</a>
+                <!-- When smaller than 1087px -->
+                <div id="menuToggle">
+                    <input type="checkbox" onclick="fadeinbackground()" />
 
-                <span></span>
-                <span></span>
-                <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
 
-                <ul id="menu">
-                    <li>
-                        <a class="menuelement" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="#">About</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="#">Work</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            
-            <!-- When greater than 1087px -->
-            <div id="navbarExampleTransparentExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item button-animated" href="index.html">
-                        Home
-                    </a>
-                    <a class="navbar-item button-animated" href="index.html">
-                        About
-                    </a>
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link" href="#">
-                            Work
-                        </a>
-                        <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item has-text-info" href="#">
-                                WEB DEVELOPMENT
-                            </a>
-                            <a class="navbar-item has-text-info" href="#">
-                                JAVA
-                            </a>
-                            <a class="navbar-item has-text-info" href="#">
-                                BLOG
-                            </a>
-                        </div>
-                    </div>
-                    <a class="navbar-item button-animated" href="index.html">
-                        Contact
-                    </a>
+                    <ul id="menu">
+                        <li>
+                            <a class="menuelement" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="menuelement" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="menuelement" href="#">Goals</a>
+                        </li>
+                        <li>
+                            <a class="menuelement" href="#">Work</a>
+                        </li>
+                        <li>
+                            <a class="menuelement" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
+
+                <!-- When greater than 1087px -->
+                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item button-animated" href="index.html">
+                            Home
+                        </a>
+                        <a class="navbar-item button-animated" href="index.html">
+                            About
+                        </a>
+                        <a class="navbar-item button-animated" href="index.html">
+                            Goals
+                        </a>
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link" href="#">
+                                Work
+                            </a>
+                            <div class="navbar-dropdown is-boxed">
+                                <a class="navbar-item has-text-info" href="#">
+                                    <span class="icon">
+                                        <i class="fab fa-html5"></i>
+                                    </span>
+                                    &#160;&#160;WEB DEVELOPMENT
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item has-text-info" href="#">
+                                    <span class="icon">
+                                        <i class="fab fa-java"></i>
+                                    </span>
+                                    &#160;&#160;JAVA
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item has-text-info" href="#">
+                                    <span class="icon">
+                                        <i class="fab fa-wordpress"></i>
+                                    </span>
+                                    &#160;&#160;BLOG
+                                </a>
+                            </div>
+                        </div>
+                        <a class="navbar-item button-animated" href="index.html">
+                            Contact
+                        </a>
+                    </div>
+                </div>
         </nav>
 
         <!-- Body -->
-        <div class="hero-body fadeinbody">
+        <div class="hero-body has-text-centered fadeinbody">
             <div class="container">
                 <h1 class="title is-size-2 has-text-primary">Welcome</h1>
 
