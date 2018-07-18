@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
     <title>André Thiele</title>
@@ -25,45 +25,63 @@
         <!-- Navigation -->
         <div id="darkenbackground"></div>
 
-        <div class="hero-head">
-            <div class="navbar">
+        <nav class="navbar is-transparent is-fixed-top has-background-info">
+            <!-- When smaller than 1087px -->
+            <div id="menuToggle">
+                <input type="checkbox" onclick="fadeinbackground()" />
 
-                    <!-- When smaller than 1087px -->
-                    <div id="menuToggle">
-                        <input type="checkbox" onclick="fadeinbackground()" />
+                <span></span>
+                <span></span>
+                <span></span>
 
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                <ul id="menu">
+                    <li>
+                        <a class="menuelement" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="menuelement" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="menuelement" href="#">Work</a>
+                    </li>
+                    <li>
+                        <a class="menuelement" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-                        <ul id="menu">
-                            <li>
-                                <a class="menuelement" href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a class="menuelement" href="#">About</a>
-                            </li>
-                            <li>
-                                <a class="menuelement" href="#">Work</a>
-                            </li>
-                            <li>
-                                <a class="menuelement" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <!-- When bigger than 1087px -->
-                    <div id="navbarMenuHeroA" class="navbar-menu">
-                        <div class="navbar-end">
-                            <a class="button-animated has-text-white" href="index.html">Home</a>
-                            <a class="button-animated has-text-white" href="#">About</a>
-                            <a class="button-animated has-text-white" href="#">Work</a>
-                            <a class="button-animated has-text-white" href="#">Contact</a>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item button-animated" href="index.html">
+                        Home
+                    </a>
+                    <a class="navbar-item button-animated" href="index.html">
+                        About
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="#">
+                            Work
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item has-text-info" href="#">
+                                WEB DEVELOPMENT
+                            </a>
+                            <a class="navbar-item has-text-info" href="#">
+                                JAVA
+                            </a>
+                            <a class="navbar-item has-text-info" href="#">
+                                BLOG
+                            </a>
                         </div>
                     </div>
+                    <a class="navbar-item button-animated" href="index.html">
+                        Contact
+                    </a>
+                </div>
             </div>
-        </div>
 
+        </nav>
 
 
         <!-- Body -->
@@ -90,7 +108,7 @@
                 </a>
             </div>
         </div>
-        
+
     </section>
 
     <!-- Footer -->
