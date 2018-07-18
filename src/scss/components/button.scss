@@ -1,6 +1,5 @@
 .button-animated {
-    margin: 0;
-    padding: 20px;
+    padding: 12px;
 
     text-align: center;
     text-transform: uppercase;
@@ -14,7 +13,7 @@
 
 .button-animated:after {
     background: #FFF;
-    height: 3px;
+    height: 2px;
     width: 0;
     left: 0;
     bottom: 0;

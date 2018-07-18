@@ -1,0 +1,9 @@
+.container {
+    margin: 0 3rem !important;
+}
+
+@media screen and (max-width: 1087px) {
+    .container {
+        margin: 0 0 !important;
+    }
+}
