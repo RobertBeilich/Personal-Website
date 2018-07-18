@@ -20,45 +20,55 @@
 
 <body onload="fadeinbody()">
 
-    <!-- Navigation -->
-    <div id="darkenbackground"></div>
+    <section class="hero is-fullheight has-background-info">
 
-    <div class="hero-head">
-        <nav class="navbar has-background-info">
-            <div class="container">
+        <!-- Navigation -->
+        <div id="darkenbackground"></div>
 
-                <!-- When smaller than 1087px -->
-                <div id="menuToggle">
-                    <input type="checkbox" onclick="fadeinbackground()" />
+        <div class="hero-head">
+            <div class="navbar">
+                <div class="container">
 
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <!-- When smaller than 1087px -->
+                    <div id="menuToggle">
+                        <input type="checkbox" onclick="fadeinbackground()" />
 
-                    <ul id="menu">
-                        <li><a class="menuelement" href="#home">Home</a></li>
-                        <li><a class="menuelement" href="#">About</a></li>
-                        <li><a class="menuelement" href="#">Work</a></li>
-                        <li><a class="menuelement" href="#">Contact</a></li>
-                    </ul>
-                </div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
 
-                <!-- When bigger than 1087px -->
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="navbar-end">
-                        <a class="button-animated has-text-white" href="#home">Home</a>
-                        <a class="button-animated has-text-white" href="#">About</a>
-                        <a class="button-animated has-text-white" href="#">Work</a>
-                        <a class="button-animated has-text-white" href="#">Contact</a>
+                        <ul id="menu">
+                            <li>
+                                <a class="menuelement" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="#">About</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="#">Work</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- When bigger than 1087px -->
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="button-animated has-text-white" href="index.html">Home</a>
+                            <a class="button-animated has-text-white" href="#">About</a>
+                            <a class="button-animated has-text-white" href="#">Work</a>
+                            <a class="button-animated has-text-white" href="#">Contact</a>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-            </div> <!-- Ende Container -->
-        </nav> <!-- Ende Navbar -->
-    </div> <!-- Ende Hero Head -->
 
-    <!-- Home Section -->
-    <section id="home" class="hero is-fullheight has-background-info">
+
+        <!-- Body -->
         <div class="hero-body fadeinbody">
             <div class="container">
                 <h1 class="title is-size-2 has-text-primary">Welcome</h1>
@@ -68,22 +78,27 @@
                 </p>
 
                 <a class="button is-primary is-rounded" href="https://github.com/itsandreramon" target="_blank">
-                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span class="icon">
+                        <i class="fab fa-github"></i>
+                    </span>
                     <span>GitHub</span>
                 </a>
 
                 <a class="button is-light is-rounded" href="https://twitter.com/itsandreramon" target="_blank">
-                    <span class="icon"><i class="fab fa-twitter"></i></span>
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
                     <span>Twitter</span>
                 </a>
             </div>
         </div>
+        
     </section>
 
     <!-- Footer -->
     <footer class="footer has-background-light">
         <div class="content has-text-centered has-dark">
-            <p>Copyright © 2018. All rights reserved.</p>
+            <p>© 2018 André Thiele. All rights reserved.</p>
         </div>
     </footer>
 
