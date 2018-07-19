@@ -1,25 +1,24 @@
 .button-animated {
-    padding-top: 20px;
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
     font-size: 12pt;
     font-weight: 600;
-
     position: relative;
-    transition: .3s;
+    overflow: hidden;
+    transition: .4s;
+    color: hsl(0, 0%, 21%);
 }
 
 .button-animated:after {
-    background:hsl(0, 0%, 96%);
-    height: 2px;
+    position: absolute;
+    transition: .4s;
+    content: '';
     width: 0;
     left: 0;
     bottom: 0;
-
-    position: absolute;
-    transition: .3s;
-    
-    content: '';
+    height: 2px;
+    background: hsl(0, 0%, 21%);
 }
   
 .button-animated:hover {
@@ -28,4 +27,6 @@
   
 .button-animated:hover:after {
     width: 100%;
+    left: 0%;
 }
+  
