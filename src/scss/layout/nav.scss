@@ -1,7 +1,16 @@
+.divider {
+    height: .5px;
+    width: 100%;
+    background-color: hsl(0, 0%, 86%);
+    position: fixed;
+    top: 2;
+}
+
 $navbar-height: 3.75rem;
 
 .brandimg {
     padding-top: 0.5rem !important;
+    margin-bottom: 8px;
 }
 
 .navbar {
