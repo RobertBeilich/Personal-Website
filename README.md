@@ -6,6 +6,6 @@
 
 # Overview
 <p float="left">
-  <img src="https://i.imgur.com/nLUD2hh.png" width="auto" height="400" title="mobile">
+  <img src="https://i.imgur.com/7L3E1ed.png" width="auto" height="400" title="mobile">
   <img src="https://i.imgur.com/yeHiQcb.png" width="auto" height="400" title="mobile">
 </p>
