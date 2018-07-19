@@ -1,3 +1,6 @@
+$navbar-height: 3.75rem;
+
+/* thin line below the navbar */
 .divider {
     height: .5px;
     width: 100%;
@@ -6,13 +9,12 @@
     top: 2;
 }
 
-$navbar-height: 3.75rem;
-
 .brandimg {
     padding-top: 0.5rem !important;
     margin-bottom: 8px;
 }
 
+/* nav */
 .navbar {
     padding: 0 4.5rem;
     font-weight: 600;
