@@ -1,40 +1,20 @@
-.navbar-link, .navbar-item {
-    color: hsl(0, 0%, 96%) !important;
+.navbar {
+    padding: 0 4.5rem;
     font-weight: 600;
-    text-transform: uppercase;
-    margin-top: 0;
 }
 
-.navbar-menu {
-    right: 0;
-    position: fixed;
-    top: 0;
-    margin-right: 4.5rem;
-    margin-top: 5px;
-}
-
-.navbar-brand {
-    margin-top: 5px;
-    margin-left: 4rem;
+.spaced-letters {
+    letter-spacing: 2px;
 }
 
 @media screen and (max-width: 1087px) {
-    .navbar-menu {
-        right: 0;
-        margin-right: 1rem;
-    }
-
     .navbar {
-        background-color: #18003C !important;
+        padding: 0 1.5rem;
     }
 
-    .navbar-brand {
-        margin-left: 1.5rem;
-        margin-top: 0.75rem;
-        font-size: 16pt;
-    }
-
-    .navbar-item {
+    .navbar-item, .navbar-link {
         padding: 0 !important;
+        padding-top: 0.75rem !important;
+        z-index: 5;
     }
 }
