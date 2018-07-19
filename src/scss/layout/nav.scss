@@ -2,16 +2,28 @@ $navbar-height: 3.75rem;
 
 /* thin line below the navbar */
 .divider {
-    height: .5px;
+    height: 1px;
     width: 100%;
-    background-color: hsl(0, 0%, 86%);
-    position: fixed;
-    top: 2;
+    background-color:hsl(0, 0%, 86%);
+    z-index: 1;
+    top: 3.75rem;
+    position: absolute;
+}
+
+/* helps with the padding */
+.helperline {
+    height: 1px;
+    width: 100%;
+    background-color:red;
+    z-index: 40;
+    top: 1.875rem;
+    position: absolute;
 }
 
 .brandimg {
     padding-top: 0.5rem !important;
     margin-bottom: 8px;
+    margin-top: .5px;
 }
 
 /* nav */
