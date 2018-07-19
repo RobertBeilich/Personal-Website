@@ -1,9 +1,14 @@
 $navbar-height: 3.75rem;
 
+.brandimg {
+    padding-top: 0.5rem !important;
+}
+
 .navbar {
     padding: 0 4.5rem;
     font-weight: 600;
     text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .spaced-letters {
