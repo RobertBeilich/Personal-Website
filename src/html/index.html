@@ -20,109 +20,96 @@
 
 <body onload="fadeinbody()">
 
-    <section class="hero is-fullheight has-background-info">
+    <section class="hero is-fullheight has-background-light">
 
         <!-- Navigation -->
         <div id="darkenbackground"></div>
 
-        <nav class="navbar is-transparent is-fixed-top has-background-info">
+        <nav class="navbar has-background-light is-fixed-top">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">ANDR
-                    <u>É</u>&#160;THIELE</a>
+                <a class="navbar-item spaced-letters" href="index.html">
+                    ANDRÉ THIELE
+                </a>
+
                 <!-- When smaller than 1087px -->
                 <div id="menuToggle">
-                    <input type="checkbox" onclick="fadeinbackground()" />
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
-                    <ul id="menu">
-                        <li>
-                            <a class="menuelement" href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a class="menuelement" href="about.html">About</a>
-                        </li>
-                        <li>
-                            <a class="menuelement" href="goals.html">Goals</a>
-                        </li>
-                        <li>
-                            <a class="menuelement" href="work.html">Work</a>
-                        </li>
-                        <li>
-                            <a class="menuelement" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- When greater than 1087px -->
-                <div id="navbarExampleTransparentExample" class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item button-animated" href="index.html">
-                            Home
-                        </a>
-                        <a class="navbar-item button-animated" href="about.html">
-                            About
-                        </a>
-                        <a class="navbar-item button-animated" href="goals.html">
-                            Goals
-                        </a>
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link" href="work.html">
-                                Work
-                            </a>
-                            <div class="navbar-dropdown is-boxed">
-                                <a class="navbar-item has-text-info" href="#">
-                                    <span class="icon">
-                                        <i class="fab fa-html5"></i>
-                                    </span>
-                                    &#160;&#160;WEB DEVELOPMENT
-                                </a>
-                                <hr class="navbar-divider">
-                                <a class="navbar-item has-text-info" href="#">
-                                    <span class="icon">
-                                        <i class="fab fa-java"></i>
-                                    </span>
-                                    &#160;&#160;JAVA
-                                </a>
-                                <hr class="navbar-divider">
-                                <a class="navbar-item has-text-info" href="#">
-                                    <span class="icon">
-                                        <i class="fab fa-wordpress"></i>
-                                    </span>
-                                    &#160;&#160;BLOG
-                                </a>
-                            </div>
-                        </div>
-                        <a class="navbar-item button-animated" href="index.html">
-                            Contact
-                        </a>
+                        <input type="checkbox" onclick="fadeinbackground()" />
+    
+                        <span></span>
+                        <span></span>
+                        <span></span>
+    
+                        <ul id="menu">
+                            <li>
+                                <a class="menuelement" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="goals.html">Goals</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="work.html">Work</a>
+                            </li>
+                            <li>
+                                <a class="menuelement" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
                     </div>
+            </div>
+
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+
+                <div class="navbar-end">
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        About
+                    </a>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Goals
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="/documentation/overview/start/">
+                            Work
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="/documentation/overview/start/">
+                                Web Development
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+                                Java
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+                                Android
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                                Blog
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                                Form
+                            </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="https://bulma.io/">
+                        Contact
+                    </a>
                 </div>
+            </div>
         </nav>
 
         <!-- Body -->
         <div class="hero-body has-text-centered fadeinbody">
             <div class="container">
-                <h1 class="title is-size-2 has-text-primary">Welcome</h1>
+                <h1 class="title is-size-2 has-text-dark">Welcome</h1>
 
-                <p class="subtitle has-text-white">
+                <p class="subtitle has-text-dark">
                     André Thiele is a computer science student from Brandenburg, Germany.
                 </p>
-
-                <a class="button is-primary is-rounded" href="https://github.com/itsandreramon" target="_blank">
-                    <span class="icon">
-                        <i class="fab fa-github"></i>
-                    </span>
-                    <span>GitHub</span>
-                </a>
-
-                <a class="button is-light is-rounded" href="https://twitter.com/itsandreramon" target="_blank">
-                    <span class="icon">
-                        <i class="fab fa-twitter"></i>
-                    </span>
-                    <span>Twitter</span>
+                <a class="button is-primary is-outlined is-rounded" href="https://twitter.com/itsandreramon" target="_blank">
+                    <span>See my work</span>
                 </a>
             </div>
         </div>
@@ -131,7 +118,7 @@
 
     <!-- Footer -->
     <footer class="footer has-background-light">
-        <div class="content has-text-centered has-dark">
+        <div class="content has-text-centered has-text-dark">
             <p>© 2018 André Thiele. All rights reserved.</p>
         </div>
     </footer>
