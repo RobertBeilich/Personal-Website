@@ -69,12 +69,12 @@
 #menu {
     position: fixed;
     width: 100%;
-    margin: 0.95rem 0 0 -100%;
+    margin: 1.1rem 0 0 -100%;
     padding: 1.75rem;
     padding-bottom: 4rem;
     right: 0;
     
-    background: hsl(0, 0%, 100%);
+    background: #FFF;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
