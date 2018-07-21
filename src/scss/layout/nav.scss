@@ -17,7 +17,7 @@ $navbar-height: 3.75rem;
     background-color:red;
     z-index: 40;
     top: 1.875rem;
-    position: absolute;
+    position: fixed;
 }
 
 .brandimg {
@@ -44,8 +44,7 @@ $navbar-height: 3.75rem;
     }
 
     .navbar-item, .navbar-link {
-        padding: 0 !important;
-        padding-top: 0.05rem !important;
+        padding-left: 0 !important;
         z-index: 5;
     }
 }
