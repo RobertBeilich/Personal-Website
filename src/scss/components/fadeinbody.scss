@@ -7,3 +7,9 @@
     opacity: 1;
     transition: all 1.4s cubic-bezier(0.23, 1, 0.320, 1);
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .hero-body {
+        min-height: 100vh;
+    }
+}
