@@ -8,9 +8,13 @@
     transition: all 1.4s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+.is-fullheight {
+    min-height: calc(100vh - 3.75rem) !important;
+}
+
 /* IE support */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .hero-body {
-        min-height: 100vh;
+        min-height: calc(100vh - 3.75rem);
     }
 }
