@@ -12,6 +12,7 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <script language="javascript" type="text/javascript" src="../js/fade.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/scroll.js"></script>
 
     <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon/favicon.ico">
     <link rel="icon" type="image/png" href="../assets/favicon/favicon.png" sizes="32x32">
@@ -20,7 +21,7 @@
 
 <body onload="fadeinbody()">
 
-    <section class="hero is-fullheight">
+    <section id="home" class="hero is-fullheight">
 
         <!-- Navigation -->
         <div id="darkenbackground"></div>
@@ -42,19 +43,16 @@
 
                     <ul id="menu">
                         <li>
-                            <a class="menuelement" href="index.html">Home</a>
+                            <a class="menuelement" href="#home">Home</a>
                         </li>
                         <li>
-                            <a class="menuelement" href="about.html">About</a>
+                            <a class="menuelement" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="menuelement" href="goals.html">Goals</a>
+                            <a class="menuelement" href="#work">Work</a>
                         </li>
                         <li>
-                            <a class="menuelement" href="work.html">Work</a>
-                        </li>
-                        <li>
-                            <a class="menuelement" href="contact.html">Contact</a>
+                            <a class="menuelement" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -63,19 +61,16 @@
             <div class="navbar-menu">
 
                 <div class="navbar-end">
-                    <a class="navbar-item button-animated" href="index.html">
+                    <a class="navbar-item button-animated" href="#home" onclick="link_scrollup()">
                         Home
                     </a>
-                    <a class="navbar-item button-animated" href="about.html">
+                    <a class="navbar-item button-animated" href="#about" onclick="link_scrollup()">
                         About
                     </a>
-                    <a class="navbar-item button-animated" href="goals.html">
-                        Goals
-                    </a>
-                    <a class="navbar-item button-animated" href="work.html">
+                    <a class="navbar-item button-animated" href="#work">
                         Work
                     </a>
-                    <a class="navbar-item button-animated" href="contact.html">
+                    <a class="navbar-item button-animated" href="#contact">
                         Contact
                     </a>
                 </div>
@@ -96,7 +91,7 @@
         </div>
     </section>
 
-    <footer class="footer has-background-white">
+    <footer class="footer has-background-light">
         <div class="content has-text-centered has-text-grey-light">
             <p class="is-footer-element">
                 Photo by
