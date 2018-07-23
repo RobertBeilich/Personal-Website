@@ -1,6 +1,6 @@
 /* Fades in the dark background */
 .darkenbg {
-    opacity: 0.6 !important;
+    opacity: 0.4 !important;
     z-index: 5 !important;
 }
 
@@ -27,7 +27,7 @@
 #menuToggle {
     display: block;
 }
-  
+
 #menuToggle input {
     display: block;
     width: 27px;
@@ -45,22 +45,22 @@
 #menuToggle span:first-child {
     transform-origin: 0% 0%;
 }
-  
+
 #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
-  
+
 #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #18003C;
+    background: #363636;
 }
-  
+
 #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
-  
+
 #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, 0px);
 }
@@ -73,12 +73,12 @@
     padding: 1.75rem;
     padding-bottom: 4rem;
     right: 0;
-    
+
     background: #FFF;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
-    
+
     transform-origin: 0% 0%;
     transform: translate(0, -100%);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -97,7 +97,7 @@
 #menuToggle input:checked ~ ul {
     transform: none;
 }
-  
+
 @media screen and (max-width: 1087px) {
     #menuToggle {
       display: block;
@@ -109,7 +109,7 @@
       -webkit-user-select: none;
       user-select: none;
     }
-      
+
     #menuToggle span {
     display: block;
     width: 27px;
@@ -119,7 +119,7 @@
     background: hsl(0, 0%, 21%);
     border-radius: 0px;
     z-index: 1;
-    
+
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
