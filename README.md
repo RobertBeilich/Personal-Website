@@ -3,9 +3,3 @@
 2. Open the folder and run 'npm install' to install all dependencies
 3. Run 'npm start' to let the SASS transpiler build the dist folder with the css file and watch for changes
 4. Develop!
-
-# Overview
-<p float="left">
-  <img src="https://i.imgur.com/7L3E1ed.png" width="auto" height="400" title="mobile">
-  <img src="https://i.imgur.com/yeHiQcb.png" width="auto" height="400" title="mobile">
-</p>
