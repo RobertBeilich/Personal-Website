@@ -1,30 +1,30 @@
 .button-animated {
-    position: relative;
-    overflow: hidden;
-    transition: .3s;
-    color: hsl(0, 0%, 21%);
+  position: relative;
+  overflow: hidden;
+  transition: .3s;
+  color: hsl(0, 0%, 21%);
 }
 
 .button-animated:after {
-    position: absolute;
-    transition: .3s;
-    content: '';
-    width: 0;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    background: hsl(0, 0%, 21%);
+  position: absolute;
+  transition: .3s;
+  content: '';
+  width: 0;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: hsl(0, 0%, 21%);
 }
 
 .button-animated:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button-animated:hover:after {
-    width: 100%;
-    left: 0%;
+  width: 100%;
+  left: 0%;
 }
 /* animated brand button */
 .button-animated-min {
-    transition: all .3s ease;
+  transition: all .3s ease;
 }

@@ -1,15 +1,16 @@
 .circular {
-    border-radius: 50%;
-    height: 200px;
-    width: auto;
-  }
+  border-radius: 50%;
+  height: 200px;
+  width: auto;
+  filter: drop-shadow(0 0 0.75rem #AAA);
+}
 
 .header-image {
-    /*background-image: url("https://i.imgur.com/ubBvrj0.jpg");*/
-    background-image: url("https://i.imgur.com/5HekPlk.jpg");
-    background-position: center 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #FFF;
-    z-index: 0;
+  /*background-image: url("https://i.imgur.com/ubBvrj0.jpg");*/
+  background-image: url("https://i.imgur.com/5HekPlk.jpg");
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFF;
+  z-index: 0;
 }

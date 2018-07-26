@@ -3,111 +3,109 @@
 <html class="has-navbar-fixed-top">
 
 <head>
-    <title>André Thiele</title>
+  <title>André Thiele</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="../../dist/css/styles.css">
+  <link rel="stylesheet" href="../../dist/css/styles.css">
 
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-    <script language="javascript" type="text/javascript" src="../js/fade.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  <script language="javascript" type="text/javascript" src="../js/fade.js"></script>
 
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon/favicon.ico">
-    <link rel="icon" type="image/png" href="../assets/favicon/favicon.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon/favicon.ico">
+  <link rel="icon" type="image/png" href="../assets/favicon/favicon.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
 </head>
 
 <body onload="fadeinbody()">
 
-    <!-- Navigation -->
-    <div id="darkenbackground"></div>
-    <!-- <div class="helperline"></div> -->
+  <!-- Navigation -->
+  <div id="darkenbackground"></div>
+  <nav class="navbar is-light has-background-white is-fixed-top">
+    <div class="navbar-brand">
+      <a class="navbar-item spaced-letters button-animated-min" href="index.html">
+        ANDRÉ THIELE
+      </a>
 
-    <nav class="navbar is-light has-background-white is-fixed-top">
-        <div class="navbar-brand">
-            <a class="navbar-item spaced-letters button-animated-min" href="index.html">
-                ANDRÉ THIELE
-            </a>
+      <!-- When smaller than 1087px -->
+      <div id="menuToggle">
+        <input type="checkbox" onclick="fadeinbackground()" />
 
-            <!-- When smaller than 1087px -->
-            <div id="menuToggle">
-                <input type="checkbox" onclick="fadeinbackground()" />
+        <span></span>
+        <span></span>
+        <span></span>
 
-                <span></span>
-                <span></span>
-                <span></span>
+        <ul id="menu">
+          <li>
+            <a class="menuelement" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="menuelement" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="menuelement" href="work.html">Work</a>
+          </li>
+          <li>
+            <a class="menuelement" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-                <ul id="menu">
-                    <li>
-                        <a class="menuelement" href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="work.html">Work</a>
-                    </li>
-                    <li>
-                        <a class="menuelement" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <div class="navbar-menu">
+
+      <div class="navbar-end">
+        <a class="navbar-item button-animated" href="index.html">
+          Home
+        </a>
+        <a class="navbar-item button-animated" href="about.html">
+          About
+        </a>
+        <a class="navbar-item button-animated" href="work.html">
+          Work
+        </a>
+        <a class="navbar-item button-animated" href="contact.html">
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="hero is-fullheight">
+    <div class="hero-body has-text-centered fadeinbody header-image">
+      <div class="container">
+        <div class="welcome-heading">
+          <h1 class="title is-size-2 has-text-white">Welcome</h1>
         </div>
 
-        <div class="navbar-menu">
-
-            <div class="navbar-end">
-                <a class="navbar-item button-animated" href="index.html">
-                    Home
-                </a>
-                <a class="navbar-item button-animated" href="about.html">
-                    About
-                </a>
-                <a class="navbar-item button-animated" href="work.html">
-                    Work
-                </a>
-                <a class="navbar-item button-animated" href="contact.html">
-                    Contact
-                </a>
-            </div>
+        <div class="welcome-text">
+          <p class="subtitle has-text-white">
+            André Thiele is a computer science student from Brandenburg, Germany.
+          </p>
         </div>
-    </nav>
 
-    <!-- Home Section -->
-    <section class="hero is-fullheight">
-        <div class="hero-body has-text-centered fadeinbody header-image">
-            <div class="container">
-                <div class="welcome-heading">
-                    <h1 class="title is-size-2 has-text-white">Welcome</h1>
-                </div>
+        <a class="button is-white is-outlined is-rounded button-animated-min" href="about.html">
+          <span>Learn more</span>
+        </a>
+      </div> <!-- End Container -->
+    </div>
+  </section>
 
-                <div class="welcome-text">
-                    <p class="subtitle has-text-white">
-                        André Thiele is a computer science student from Brandenburg, Germany.
-                    </p>
-                </div>
-
-                <a class="button is-white is-outlined is-rounded button-animated-min" href="about.html">
-                    <span>Learn more</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="content has-text-centered has-text-grey-light">
-            <p class="is-footer-element">
-                Photo by
-                <a rel="license" href="https://unsplash.com/photos/Fehuczca-MM" target="_blank">Cason Asher</a>.
-            </p>
-            <p class="is-footer-element">
-                This website is licensed under a
-                <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY NC ND 4.0 International License</a>.
-            </p>
-        </div>
-    </footer>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered has-text-grey-light">
+      <p class="is-footer-element">
+        Photo by
+        <a rel="license" href="https://unsplash.com/photos/Fehuczca-MM" target="_blank">Cason Asher</a>.
+      </p>
+      <p class="is-footer-element">
+        This website is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY NC ND 4.0 International License</a>.
+      </p>
+    </div>
+  </footer>
 
 </body>
 
