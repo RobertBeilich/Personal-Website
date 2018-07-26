@@ -1,12 +1,20 @@
+.middlecard {
+    padding: 0 2rem !important;
+}
 
-.card.large {
-    height: 600px;
-    border-radius: 5px;
+.card {
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
 }
 
-.card.large:hover {
+.card:hover {
     transform: scale(1.02);
+    filter: drop-shadow(0 0 0.75rem #AAA);
+}
+
+@media screen and (max-width: 769px) {
+    .middlecard {
+        padding: 2rem 0 !important;
+    }
 }
