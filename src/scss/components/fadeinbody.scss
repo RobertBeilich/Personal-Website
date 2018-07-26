@@ -1,20 +1,20 @@
-.fadeinbody { 
-    opacity: 0 !important;
-    transform: translateY(-40px);
+.fadeinbody {
+  opacity: 0 !important;
+  transform: translateY(-40px);
 }
 
 .hero-body {
-    opacity: 1;
-    transition: all 1.4s cubic-bezier(0.23, 1, 0.320, 1);
+  opacity: 1;
+  transition: all 1.4s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 .is-fullheight {
-    min-height: calc(100vh - 3.75rem) !important;
+  min-height: calc(100vh - 3.75rem) !important;
 }
 
 /* IE support */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .hero-body {
-        min-height: calc(100vh - 3.75rem);
-    }
+  .hero-body {
+    min-height: calc(100vh - 3.75rem);
+  }
 }

@@ -1,20 +1,20 @@
 .middlecard {
-    padding: 0 2rem !important;
+  padding: 0 2rem !important;
 }
 
 .card {
-    transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 .card:hover {
-    transform: scale(1.02);
-    filter: drop-shadow(0 0 0.75rem #AAA);
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 0.75rem #AAA);
 }
 
 @media screen and (max-width: 769px) {
-    .middlecard {
-        padding: 2rem 0 !important;
-    }
+  .middlecard {
+    padding: 2rem 0 !important;
+  }
 }
