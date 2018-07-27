@@ -28,7 +28,7 @@
 }
 
 .work-container {
-  margin: 0 3rem;
+  margin: 0 calc(3rem + 1px) !important;
 }
 
 @media screen and (max-width: 1087px) {
@@ -41,6 +41,6 @@
   }
 
   .work-container {
-    margin: 0 0;
+    margin: 0 1px !important;
   }
 }
