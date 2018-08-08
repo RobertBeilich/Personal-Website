@@ -9,8 +9,10 @@
 }
 
 .card:hover {
-  transform: scale(1.02);
-  filter: drop-shadow(0 0 0.75rem #AAA);
+  transform: translateY(-0.5rem);
+  transition: all 0.5s ease;
+  /*filter: drop-shadow(0 0 0.75rem #AAA);*/
+  box-shadow: 0px 3rem 3rem -1.25rem rgba(10,10,10,0.1);
 }
 
 @media screen and (max-width: 769px) {
