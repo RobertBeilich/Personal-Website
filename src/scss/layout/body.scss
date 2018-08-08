@@ -2,6 +2,10 @@
   padding: 2rem 1.5rem !important;
 }
 
+.form {
+  padding: 0 15rem;
+}
+
 .aboutline {
   height: 1px;
   width: 15%;
@@ -19,8 +23,8 @@
 }
 
 .contact-text {
-  padding: 1rem 0;
-  padding-top: 0.5rem;
+  padding: 3rem 15rem;
+  padding-top: 2.5rem;
 }
 
 .work-heading {
@@ -43,4 +47,14 @@
   .work-container {
     margin: 0 1px !important;
   }
+
+  .form {
+    padding: 0 0;
+  }  
+
+  .contact-text {
+    padding: 3rem 0;
+    padding-top: 2.5rem;
+  }
+
 }
