@@ -82,44 +82,44 @@
 
         <div class="contact-text has-text-centered">
           <p class="subtitle has-text-dark">
-            Get in touch with me via email or, if you prefer, reach out to me on Twitter
-            <a href="https://twitter.com/itsandreramon">@itsandreramon</a>.
+            Simply fill out the form below to get in touch with me via email or, if you prefer, reach out to me on Twitter:
+            <a href="https://twitter.com/itsandreramon" class="button-animated-min">@itsandreramon</a>.
           </p>
         </div>
 
-        <div class="form">
+        <form class="form" method="POST" action="https://formspree.io/andre.ramon.thiele@outlook.de">
           <div class="field">
             <label class="label">Your Name</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Name">
+              <input class="input" type="text" name="name" placeholder="Name">
             </div>
           </div>
 
           <div class="field">
             <label class="label">Email address</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Email">
+              <input class="input" type="text" name="email" placeholder="Email">
             </div>
           </div>
 
           <div class="field">
             <label class="label">Subject of your message</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Subject">
+              <input class="input" type="text" name="subject" placeholder="Subject">
             </div>
           </div>
 
           <div class="field">
-              <label class="label">How did you hear about me?</label>
-              <div class="control">
-                <input class="input" type="text" placeholder="For example via Twitter">
-              </div>
+            <label class="label">How did you hear about me?</label>
+            <div class="control">
+              <input class="input" type="text" name="howdidhear" placeholder="For example via Twitter">
             </div>
+          </div>
 
           <div class="field">
             <label class="label is-normal">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Message"></textarea>
+              <textarea class="textarea" name="message" placeholder="Message"></textarea>
 
               <p class="help is-danger">
                 This field is required
@@ -132,7 +132,7 @@
               <button class="button is-dark">Submit</button>
             </div>
           </div>
-        </div>
+        </form>
       </div>
       <!-- End Container -->
     </div>
@@ -140,29 +140,29 @@
 
   <!-- Footer -->
   <footer class="footer">
-      <div class="content has-text-centered has-text-grey-light">
-  
-        <p class="is-footer-element">
-          This website is licensed under a
-          <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY NC ND 4.0 International License</a>.
-        </p>
-  
-  
-        <p class="is-footer-element">
-          <a class="link" href="https://github.com/itsandreramon" style="padding-right: 1rem;" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-github"></i>
-            </span>
-          </a>
-          <a class="link" href="https://twitter.com/itsandreramon" target="_blank">
-            <span class="icon is-small">
-              <i class="fab fa-twitter"></i>
-            </span>
-          </a>
-        </p>
-  
-      </div>
-    </footer>
+    <div class="content has-text-centered has-text-grey-light">
+
+      <p class="is-footer-element">
+        This website is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="button-animated-min">CC BY NC ND 4.0 International License</a>.
+      </p>
+
+      <p class="is-footer-element">
+        <a class="link button-animated-min" href="https://github.com/itsandreramon" style="padding-right: 1rem;" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-github"></i>
+          </span>
+        </a>
+
+        <a class="link button-animated-min" href="https://twitter.com/itsandreramon" target="_blank">
+          <span class="icon is-small">
+            <i class="fab fa-twitter"></i>
+          </span>
+        </a>
+      </p>
+
+    </div>
+  </footer>
 
 </body>
 
