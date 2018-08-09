@@ -7,12 +7,12 @@
 
 # Desktop Design
 <p>
-  <img src="https://i.imgur.com/aLq2XPR.jpg" width="400" height="auto"/>
-  <img src="https://i.imgur.com/q6Y6B3w.png" width="400" height="auto"/>
+  <img src="https://i.imgur.com/ase1SiL.png" width="400" height="auto"/>
+  <img src="https://i.imgur.com/GLaHKuf.png" width="400" height="auto"/>
 </p>
 
 # Mobile Design
 <p>
-  <img src="https://i.imgur.com/KMHA9cT.jpg" width="200" height="auto"/>
-  <img src="https://i.imgur.com/P5Qt3ce.png" width="200" height="auto"/>
+  <img src="https://i.imgur.com/4DWw5JK.png" width="200" height="auto"/>
+  <img src="https://i.imgur.com/Czx1bMu.png" width="200" height="auto"/>
 </p>
