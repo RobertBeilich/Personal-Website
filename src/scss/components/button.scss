@@ -2,7 +2,6 @@
   position: relative;
   overflow: hidden;
   transition: .3s;
-  color: hsl(0, 0%, 21%);
 }
 
 .button-animated:after {
@@ -28,4 +27,8 @@
 /* without underline */
 .button-animated-min {
   transition: all .3s ease;
+}
+
+.button-hover-up:hover {
+  transform: translateY(-5px);
 }

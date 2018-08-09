@@ -1,9 +1,13 @@
 .hero-body {
-  padding: 2rem 1.5rem !important;
+  padding: 0 4.5rem !important;
+}
+
+.container {
+  margin: 3rem 0 !important;
 }
 
 .form {
-  padding: 0 15rem;
+  padding: 0 20rem;
 }
 
 .aboutline {
@@ -13,26 +17,31 @@
   margin: 3rem auto;
 }
 
-.about-text {
-  padding: 0 15rem;
+.menuline {
+  height: 1px;
+  width: 8.5rem;
+  background-color: hsl(0, 0%, 86%);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: calc(100% - 8.5rem);
 }
 
-.welcome-text {
-  padding: 1rem 0;
-  padding-top: 0.5rem;
+.about-text {
+  padding: 0 20rem;
 }
+
+.welcome-heading {
+  padding-right: 40rem;
+}
+
 
 .contact-text {
-  padding: 3rem 15rem;
+  padding: 3rem 0;
   padding-top: 2.5rem;
 }
 
 .work-heading {
   padding-bottom: 3rem;
-}
-
-.work-container {
-  margin: 0 calc(3rem + 1px) !important;
 }
 
 @media screen and (max-width: 1087px) {
@@ -44,10 +53,6 @@
     padding: 0 0;
   }
 
-  .work-container {
-    margin: 0 1px !important;
-  }
-
   .form {
     padding: 0 0;
   }  
@@ -57,4 +62,11 @@
     padding-top: 2.5rem;
   }
 
+  .hero-body {
+    padding: 1.5rem 1.5rem !important;
+  }
+
+  .welcome-heading {
+    padding: 0 0rem;
+  }
 }

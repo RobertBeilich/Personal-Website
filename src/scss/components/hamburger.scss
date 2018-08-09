@@ -19,8 +19,6 @@
 /* menu toggles */
 .menuelement {
   color: hsl(0, 0%, 21%);
-  letter-spacing: 2px;
-  text-transform: uppercase;
   font-weight: 600;
 }
 
@@ -90,7 +88,6 @@
   padding-top: 30px;
   padding-right: 0;
   font-size: 16pt;
-  display: block;
   text-align: right;
 }
 
@@ -110,7 +107,7 @@
     user-select: none;
   }
 
-  #menuToggle span {
+  .toggle {
     display: block;
     width: 27px;
     height: 2px;
